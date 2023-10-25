@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    margin: 44px auto;
+    height: 90vh;
+    width: 33vw;
+    border: 2px solid sienna;
+    border-radius: 30px;
+    background-color: burlywood;
+
+}
+
+.Photo{
+    height:230px;
+    width:30vw;
+    display: block;
+    margin: 3px auto;
+    margin-top: 10px;
+    border-radius: 20px ;
+    
+}
+.Camera{
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 3px;    
+    margin-left: 5px;
+    position: absolute;
+    margin-top: 10px;
+}
+.Photography{
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 3px;    
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+}
+h2{
+    margin-top: 60px;
+    margin-left: 5px;
+}
+p{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.readmore{
+    position: absolute;
+    background-color: chocolate;
+    border:2px solid darkred;
+    border-radius: 20px;
+    margin: 2px auto;
+    margin-top: 130px;
+    margin-right:5px;
+    margin-left:150px;
+    padding: 3px;
+}
