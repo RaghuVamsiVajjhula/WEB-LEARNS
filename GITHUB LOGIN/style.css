@@ -62,7 +62,7 @@ h3
     border: 3px solid black;
     border-radius: 30px;
     width: fit-content;
-    min-width: 400px;
+    min-width: 500px;
     height: fit-content;
     min-height: 40vh;
     /* margin-left: 30px; */
@@ -75,12 +75,31 @@ h3
 .mail{
     display:block; /*WE used this in order to bring the input box below the username label*/
     font-size: 20px;
-    margin: auto;
-    margin-top: 10px;
+    margin: auto;   
+    margin-top: 20px;
     background-color: rgb(142, 103, 142);
 }
-}
+
 .forgot{
     margin-left: 120px;
     font-size: large;
+
 }
+.password{
+    margin: 20px;
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+/* .newpassword{
+    display:block; /*WE used this in order to bring the input box below the username label*/
+    font-size: 20px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(142, 103, 142);
+} 
+
+/* .button{
+    position: relative;
+    wi
+} */
