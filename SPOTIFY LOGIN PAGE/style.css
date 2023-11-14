@@ -4,7 +4,7 @@
     background-color:rgb(30, 29, 29);
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .head{
     background-color: black;
@@ -25,6 +25,7 @@
     padding: 20px;
     margin: 300px;
     margin-top: 26px;
+    min-height: 80vw;
 }
 .Text1{
     
@@ -36,6 +37,7 @@
 h3{
     background-color: black;
     text-align: center;
+    
 }
 
 /* .google{
@@ -53,20 +55,25 @@ h3{
 .Continue{
     background-color: black;
     padding: 30px;
-    display: flex;
+    display: block;
     justify-content: center;
-    
+    margin: 2px auto;
+    padding: 10px;
 
 }
 .firstbutton{
     border-radius: 40px;
     display: flex;
-    height: 60px;
+    height: 50px;
     width:350px;
     background-color: black;
     align-items: center;
-    border:1px solid rgb(64, 60, 60);
-    
+    border:1px solid rgb(100, 96, 96);
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .googlelogo{
@@ -101,4 +108,59 @@ h3{
     background-color: black;
     padding-inline: 10px;
     text-align: center  ;
+}
+.pic2{
+    height: 23px;
+    background-color: black;
+    padding-inline: 10px;
+    text-align: center  ;
+    border-radius: 30px;
+}
+.secondbutton{
+    border-radius: 40px;
+    display: flex;
+    height: 60px;
+    width:350px;
+    background-color: black;
+    align-items: center;
+    border:1px solid rgb(64, 60, 60);
+    padding: 10px;
+    margin: 10px;
+    border:1px solid rgb(100, 96, 96);
+    justify-content: center;
+    font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
+}
+.thirdbutton{
+    border-radius: 40px;
+    display: flex;
+    height: 60px;
+    width:350px;
+    background-color: black;
+    align-items: center;
+    border:1px solid rgb(64, 60, 60);
+    padding: 10px;
+    margin: 10px;
+    border:1px solid rgb(100, 96, 96);
+    justify-content: center;
+    font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+.phone{
+    border-radius: 40px;
+    display: flex;
+    height: 60px;
+    width:350px;
+    background-color: black;
+    align-items: center;
+    border:1px solid rgb(64, 60, 60);
+    padding: 10px;
+    margin: 10px;
+    margin-top: 5px;
+    border:1px solid rgb(100, 96, 96);
+    text-align: center;
+    justify-content: center;
+    font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
+
 }
