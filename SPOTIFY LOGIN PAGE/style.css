@@ -80,7 +80,6 @@ h3{
     height: 23px;
     background-color: black;
     padding-inline: 10px;
-    margin: ;
     
 }
 
@@ -163,4 +162,35 @@ h3{
     justify-content: center;
     font-family: 'Roboto',Verdana, Geneva, Tahoma, sans-serif;
 
+}
+.line{
+    margin:10px 12px;
+    border:1px solid rgb(57, 55, 55);
+}
+
+.input{
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 12px auto;
+}
+.email{
+    background-color: black;
+    font-size: large;
+    padding: 20px;
+    border-radius: 5px;
+    border:1px solid rgb(57, 55, 55);
+    width: 300px;
+}
+.input1{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 12px auto;
+    margin-left: 0%;
 }
