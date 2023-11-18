@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+/* .mainpage{
+    display: flex;
+} */
+.outerbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.loginphoto{
+   display: flex;
+   flex-direction:row;
+   margin-left: auto;
+   margin-right: auto;
+   height: 580px;
+   margin-top:20px;
+}
+.loginboxright{
+    display: flex;
+    border:1px solid rgb(226, 226, 226);
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    width:25vw;
+    margin-left: 20px;
+    height: 65vh;
+    margin-bottom: 10px;
+    
+}
+.instagramtext{
+    font-size: 38px;
+    /* margin:  30px; */
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.username{
+    background-color:rgb(245, 245,245) ;
+    width:250px;
+    height:25px;
+    border-radius: 5px;
+    border:1px solid rgb(226, 226, 226);
+    padding:5px;
+    
+}
+.password{
+    background-color:rgb(245, 245,245) ;
+
+   width:250px;
+   height: 25px;
+   border-radius:5px;
+   border:1px solid rgb(226, 226, 226);
+   padding:5px;
+   margin-top: 10px;
+}
+.bluelogin{
+    background-color: rgb(57, 154, 233);
+    color: white;
+    border-radius: 5px;
+    width: 250px;
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.lines{
+    margin: 10px 112px;
+    border:1px solid rgb(57, 55, 55);
+    
+}
+.face{
+    text-decoration: none;
+    padding: 2px;
+    margin-left: 3px;
+    color: rgb(0, 0, 255);
+
+
+}
+.newimage{
+    width: 20px;
+    height: 20px;
+
+}
+.loginfacebook{
+    display: flex;
+}
+.forget{
+    text-decoration: none;
+    color: black;
+    font-size: small
+}
+.forgotpassword{
+    margin-top:10px;    
+}
+.anotherlink{
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+
+}
+.newboxsignup{
+    border:1px solid rgb(226, 226, 226);
+    padding: 10px;
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    margin-top:120px;
+    width:354px;
+    border-radius: 5px;
+}
+
+/* .antext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+} */
+p{
+        margin-left: 70px ;
+        text-align: center;
+}
+/* .antext{
+    margin-left: 20px;
+} */
