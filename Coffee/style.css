@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+h3{
+    font-family: 'Aref Ruqaa Ink', serif;
+    color:rgba(110, 76, 3, 0.768);
+    font-style: italic;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.maincontent{
+    display: flex;
+}
+.leftside{
+
+    display: flex;
+    min-width: 50vw;
+    min-height: 50vh;
+}
+.rightside{
+    background-color: rgba(254, 239, 212, 0.71);
+    min-width: 50vw;
+    min-height: 50vh;
+    
+}
+.element{
+    list-style: none;
+    margin: 20px;
+    color:darkgoldenrod;
+    font-size: small;
+}
+.navlist{
+    display: flex;
+    padding: 5px;
+    margin-top: 20px;
+    justify-content: center;
+}
+.text2{
+    font-size: 200px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    margin-top:30px;
+    margin-left: -18px;
+    color:rgba(66, 46, 4, 0.768);
+
+}
+.text3{
+    
+}
